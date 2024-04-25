@@ -4,7 +4,7 @@ import (
 	"math/big"
 )
 
-func findSimples(min, max int) []int {
+func findPrimes(min, max int) []int {
 	// create results slice with len = 0 and
 	// cap = 4 because when we get more elements in nums,
 	// we will have fewer common divisors and
